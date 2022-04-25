@@ -17,6 +17,10 @@ WIP: 別途構成図を作成する
   - `main` ブランチにマージされたタイミングでデプロイ用のワークフロー作動
     - GithubActionsでデプロイを行う
 
+## 事前準備
+
+WIP: githubactions によるlambda関数の自動デプロイを実装するまでは以下のように `go build` したものが `infra/modules/lambda/functions/` に `main` というファイル名で出力されている必要がある。
+
 ## 関数群
 
 ### EC2の自動停止
