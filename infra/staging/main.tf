@@ -34,3 +34,10 @@ module "bastion" {
 
   tags = var.tags
 }
+
+module "lambda" {
+  source = "../modules/lambda/"
+
+  prefix = local.default_prefix
+  tags   = var.tags
+}
